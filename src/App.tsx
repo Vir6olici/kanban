@@ -1,12 +1,25 @@
-import React from "react";
-import  Counter  from "./Counter";
-const App=()=>{
-    let x = 3;
+import React from 'react';
+import { createBrowserRouter,RouterProvider } from "react-router-dom";
+import Login from "./pages/login/login";
+import Board from "./pages/mainPage/board";
+
+
+let router = createBrowserRouter([
+    {
+        path: '/',
+        element: <Login />,
+    },
+    {
+        path: '/board', 
+        element: <Board />
+    }
+])
+
+const App: React.FC =()=>{    
     return (
-    <div>
-    <h1>Create React App from Scratch Using Typescript..!! e ok oare</h1>
-    <Counter/>
-    </div>
+        <React.Fragment>
+            <RouterProvider router={router} />
+        </React.Fragment>
     )
 }
 export default App;
