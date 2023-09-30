@@ -4,7 +4,7 @@ const App=()=>{
     let x = 3;
     return (
     <div>
-    <h1>Create React App from Scratch Using Typescript..!!</h1>
+    <h1>Create React App from Scratch Using Typescript..!! e ok oare</h1>
     <Counter/>
     </div>
     )
