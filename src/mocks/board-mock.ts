@@ -28,7 +28,7 @@ const mock: any = {
           ],
         },
         {
-          id: "2",
+          id: "3",
           title: "Build UI for onboarding flow",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet nulla sit amet mi semper molestie. Aliquam feugiat metus a sem placerat, a rutrum elit accumsan",
@@ -39,7 +39,7 @@ const mock: any = {
           ],
         },
         {
-          id: "2",
+          id: "4",
           title: "Build UI for onboarding flow",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet nulla sit amet mi semper molestie. Aliquam feugiat metus a sem placerat, a rutrum elit accumsan",
@@ -50,7 +50,7 @@ const mock: any = {
           ],
         },
         {
-          id: "2",
+          id: "5",
           title: "Build UI for onboarding flow",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet nulla sit amet mi semper molestie. Aliquam feugiat metus a sem placerat, a rutrum elit accumsan",
@@ -61,7 +61,7 @@ const mock: any = {
           ],
         },
         {
-          id: "2",
+          id: "6",
           title: "Build UI for onboarding flow",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet nulla sit amet mi semper molestie. Aliquam feugiat metus a sem placerat, a rutrum elit accumsan",
@@ -72,7 +72,7 @@ const mock: any = {
           ],
         },
         {
-          id: "2",
+          id: "7",
           title: "Build UI for onboarding flow",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet nulla sit amet mi semper molestie. Aliquam feugiat metus a sem placerat, a rutrum elit accumsan",
@@ -83,7 +83,7 @@ const mock: any = {
           ],
         },
         {
-          id: "2",
+          id: "8",
           title: "Build UI for onboarding flow",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet nulla sit amet mi semper molestie. Aliquam feugiat metus a sem placerat, a rutrum elit accumsan",
@@ -94,7 +94,7 @@ const mock: any = {
           ],
         },
         {
-          id: "2",
+          id: "9",
           title: "Build UI for onboarding flow",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet nulla sit amet mi semper molestie. Aliquam feugiat metus a sem placerat, a rutrum elit accumsan",
@@ -105,7 +105,7 @@ const mock: any = {
           ],
         },
         {
-          id: "2",
+          id: "10",
           title: "Build UI for onboarding flow",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet nulla sit amet mi semper molestie. Aliquam feugiat metus a sem placerat, a rutrum elit accumsan",
@@ -116,7 +116,7 @@ const mock: any = {
           ],
         },
         {
-          id: "2",
+          id: "11",
           title: "Build UI for onboarding flow",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet nulla sit amet mi semper molestie. Aliquam feugiat metus a sem placerat, a rutrum elit accumsan",
@@ -127,7 +127,7 @@ const mock: any = {
           ],
         },
         {
-          id: "2",
+          id: "12",
           title: "Build UI for onboarding flow",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet nulla sit amet mi semper molestie. Aliquam feugiat metus a sem placerat, a rutrum elit accumsan",
@@ -138,7 +138,7 @@ const mock: any = {
           ],
         },
         {
-          id: "2",
+          id: "13",
           title: "Build UI for onboarding flow",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet nulla sit amet mi semper molestie. Aliquam feugiat metus a sem placerat, a rutrum elit accumsan",
@@ -149,7 +149,7 @@ const mock: any = {
           ],
         },
         {
-          id: "2",
+          id: "14",
           title: "Build UI for onboarding flow",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet nulla sit amet mi semper molestie. Aliquam feugiat metus a sem placerat, a rutrum elit accumsan",
@@ -167,7 +167,7 @@ const mock: any = {
       statusColor: "#67E2AE",
       values: [
         {
-          id: "3",
+          id: "15",
           title: "Build UI for onboarding flow",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet nulla sit amet mi semper molestie. Aliquam feugiat metus a sem placerat, a rutrum elit accumsan",
@@ -178,7 +178,7 @@ const mock: any = {
           ],
         },
         {
-          id: "4",
+          id: "16",
           title: "Build UI for onboarding flow",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet nulla sit amet mi semper molestie. Aliquam feugiat metus a sem placerat, a rutrum elit accumsan",

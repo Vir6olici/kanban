@@ -23,8 +23,17 @@ const TaskList: React.FC<TaskListProps> = ({ data }) => {
     e.preventDefault();
   };
 
+  const onDropHandler = (e) => {
+    const draggedId = e.dataTransfer.getData("text");
+    // call la be pentru adaugat element in coloana respectiva
+  };
+
   return (
-    <div className={styles["task-list"]} onDragOver={onDragOverHandler}>
+    <div
+      className={styles["task-list"]}
+      onDragOver={onDragOverHandler}
+      onDrop={onDropHandler}
+    >
       <div className={styles["task-list__header"]}>
         <div
           className={styles["header__status"]}
