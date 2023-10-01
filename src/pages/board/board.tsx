@@ -1,7 +1,7 @@
-import styles from "./board.module.css";
+import TaskList from "../../components/task-list";
 
 const Board = () => {
-  return <div className={styles["test"]}>board</div>;
+  return <TaskList />;
 };
 
 export default Board;

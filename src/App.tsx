@@ -1,7 +1,7 @@
 import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Login from "./pages/login/login";
-import Board from "./pages/board/board";
+import Board from "./pages/board";
 
 let router = createBrowserRouter([
   {
