@@ -2,6 +2,7 @@ import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Login from "./pages/login/login";
 import Board from "./pages/board";
+import boardMocks from "./mocks/board-mock";
 
 let router = createBrowserRouter([
   {
@@ -10,7 +11,7 @@ let router = createBrowserRouter([
   },
   {
     path: "/board",
-    element: <Board />,
+    element: <Board data={boardMocks} />,
   },
 ]);
 
