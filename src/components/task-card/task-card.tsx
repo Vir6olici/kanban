@@ -5,18 +5,19 @@ import { TaskCardProps } from "./task-card.types";
 
 const TaskCard: React.FC<TaskCardProps> = ({ data }) => {
   console.log(data);
-  const subTasksPending = pipe(
+  const subTasksPending: any = pipe(
     selectSubTasks,
-    filter(pipe(propEq(true, "done"), not)),
-    length
+    filter(pipe(propEq(true, "done"), not))
   )(data);
 
   const subTasksLength = pipe(selectSubTasks, length)(data);
 
   return (
     <div className={styles["card"]}>
-      <span>{selectTitle(data)}</span>
-      <span>{`${subTasksPending} of ${subTasksLength} subtasks`}</span>
+      <span className={styles["card__title"]}>{selectTitle(data)}</span>
+      <span className={styles["card__subtitle"]}>{`${length(
+        subTasksPending
+      )} of ${subTasksLength} subtasks`}</span>
     </div>
   );
 };

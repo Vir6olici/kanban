@@ -3,6 +3,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Login from "./pages/login/login";
 import Board from "./pages/board";
 import boardMocks from "./mocks/board-mock";
+import "App.css";
 
 let router = createBrowserRouter([
   {

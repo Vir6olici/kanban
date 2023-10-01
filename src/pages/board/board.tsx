@@ -3,6 +3,7 @@ import TaskList from "../../components/task-list";
 import { selectId, selectTasks } from "../../selectors";
 import styles from "./board.module.css";
 import { BoardProps } from "./board.types";
+import AddTaskList from "../../components/placeholder-card";
 
 const Board: React.FC<BoardProps> = ({ data }) => {
   const taskList = pipe(
@@ -10,7 +11,12 @@ const Board: React.FC<BoardProps> = ({ data }) => {
     map((tasks) => <TaskList key={selectId(tasks)} data={tasks} />)
   )(data);
 
-  return <div className={styles["board"]}>{taskList}</div>;
+  return (
+    <div className={styles["board"]}>
+      {taskList}
+      <AddTaskList text={"+ New Column"} />
+    </div>
+  );
 };
 
 export default Board;
