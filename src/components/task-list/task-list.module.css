@@ -1,0 +1,39 @@
+.task-list {
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  .task-list__header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    .header__status {
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+    }
+
+    .header__text {
+      text-transform: uppercase;
+      font-family: "PlusJakartaSans";
+      font-size: 12px;
+      font-weight: 700;
+      color: #828fa3;
+      letter-spacing: 2;
+    }
+  }
+
+  .task-list__content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    overflow: scroll;
+  }
+
+  .task-list__content::-webkit-scrollbar {
+    display: none;
+  }
+}

@@ -1,27 +1,23 @@
 {
-    "compilerOptions": {
-        "target": "ES5" ,
-        "module": "ESNext" ,
-        "moduleResolution": "node" ,
-        "lib": [
-            "DOM",
-            "ESNext"
-        ] ,
-        "jsx": "react-jsx" ,
-        "noEmit": true ,
-        "isolatedModules": true ,
-        "esModuleInterop": true ,
-        "strict": true ,
-        "noImplicitAny": true,
-        "skipLibCheck": true ,
-        "forceConsistentCasingInFileNames": true ,
-        "resolveJsonModule": true,
-        "noUnusedLocals": true,
-        "noUnusedParameters": true,
-        "strictFunctionTypes": true,
-
-    },
-    "include": [
-        "src/**/*"
-    ]
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "lib": ["DOM", "ESNext"],
+    "jsx": "react-jsx",
+    "noEmit": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "noImplicitAny": false,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strictFunctionTypes": true,
+    "sourceMap": true,
+    "plugins": [{ "name": "typescript-plugin-css-modules" }]
+  },
+  "include": ["src/**/*", "typings.d.ts"]
 }
