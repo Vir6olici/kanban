@@ -1,5 +1,6 @@
 .board {
   display: flex;
   gap: 24px;
-  height: 1000px;
+  height: 100vh;
+  background-color: #f4f7fd;
 }

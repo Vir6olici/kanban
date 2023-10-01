@@ -19,8 +19,12 @@ const TaskList: React.FC<TaskListProps> = ({ data }) => {
     map((item) => <TaskCard key={selectId(item)} data={item} />)
   )(data);
 
+  const onDragOverHandler = (e) => {
+    e.preventDefault();
+  };
+
   return (
-    <div className={styles["task-list"]}>
+    <div className={styles["task-list"]} onDragOver={onDragOverHandler}>
       <div className={styles["task-list__header"]}>
         <div
           className={styles["header__status"]}

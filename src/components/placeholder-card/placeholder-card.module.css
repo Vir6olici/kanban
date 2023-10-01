@@ -5,6 +5,7 @@
   align-items: center;
   justify-content: center;
   border-radius: 6px;
+  cursor: pointer;
 
   .card__text {
     color: #828fa3;

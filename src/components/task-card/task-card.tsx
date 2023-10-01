@@ -13,7 +13,7 @@ const TaskCard: React.FC<TaskCardProps> = ({ data }) => {
   const subTasksLength = pipe(selectSubTasks, length)(data);
 
   return (
-    <div className={styles["card"]}>
+    <div className={styles["card"]} draggable>
       <span className={styles["card__title"]}>{selectTitle(data)}</span>
       <span className={styles["card__subtitle"]}>{`${length(
         subTasksPending
