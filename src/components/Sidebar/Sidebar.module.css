@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600&display=swap');
+
+.sidebar{
+    width: 400px;
+    height: 100%;
+    background-color: var(--White, #FFF);
+    padding: 24px 24px 24px 0px;
+    overflow: hidden;
+    transition: 0.3s;
+    position: relative;
+}
+
+.sidebar.active{
+    width: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    margin-left: 34px;
+}
+
+.sidebarContent{
+    margin-top: 50px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sidebarContentTopTitle{
+    color: var(--Medium-Grey, #828FA3);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.4px;
+    margin-left: 34px;
+    width: 276px;
+}
+
+.sidebarContentBottom{
+    margin-bottom: 120px;
+}
+
+.sidebarContentBottomHide{
+    padding-top: 22px;
+    margin-left: 30px;
+}
+
+.sidebarContentBottomHideLabel{
+    padding-left: 16px;
+    color: var(--Medium-Grey, #828FA3);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Plus Jakarta Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.sidebarContentBottomHideButton{
+    background-color: white;
+    border: none;
+    width: 276px;
+    height: 38px;
+    border-radius: 20px;
+}
+
+.sidebarContentBottomHideButton:hover{
+    background-color: #d9dadb;
+}
+
+.hideShowButton{
+    display: none;
+}
+
+.activeShowButton{
+    visibility:visible;
+    display: block;
+    position: absolute;
+    transition: 0.5 ease-in-out;
+    margin-top: 35%;
+    overflow: hidden;
+    transition: 2s;
+    left: 0%;
+}
+
+.floatingShowButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 24px 24px 0px;
+    height: 60px;
+    width: 80px;
+    background: var(--Main-Purple, #635FC7);
+    border: none;
+}

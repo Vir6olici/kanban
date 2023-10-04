@@ -11,8 +11,14 @@ let router = createBrowserRouter([
     },
     {
         path: '/board', 
-        element: <Board />
-    }
+        element: <Board />,
+        children: [
+            {
+                path: ':id',
+                element: <Board />
+            }
+        ]
+    },
 ])
 
 const App: React.FC =()=>{    
